@@ -5,4 +5,8 @@ module AfterParty
   def self.setup
     yield self
   end
+
+  def self.table_name_prefix
+    'after_party_'
+  end
 end

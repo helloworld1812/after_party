@@ -45,7 +45,7 @@ module AfterParty
       end
 
       def table_name
-        table = 'task_record'
+        table = 'after_party_task_record'
         ActiveRecord::Base.pluralize_table_names ? table.pluralize : table
       end
     end
